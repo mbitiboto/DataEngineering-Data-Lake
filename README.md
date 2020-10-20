@@ -1,9 +1,9 @@
 # Project: Data Lake with Spark
 ## Introduction
 In this project, we are using spark to implemented a data lake. The data lake implementation consist of three steps as listed below.
-1.Load unstructured logs and songs data sets from s3
-2.processed the data andthen put the processed data to spark tables
-3.write back the spark tables in s3 back.
+1. Load unstructured logs and songs data sets from s3
+2. processed the data andthen put the processed data to spark tables
+3. write back the spark tables in s3 back.
 
 ## Technologies
 Python, Spark SQL, Spark DataFrame, AWS, Data Lake, ETL pipeline, JSON.
@@ -51,5 +51,5 @@ This file contains AWS Access Credentials.
 ## Run the application
 Before running the files in items (1) and (2) make sure that the redshift (cluster) database is available.
 The parameters to set the aws resources and clients are in the file dwl.cfg available
-1. offen a Terminal
+1. Offen a Terminal
 3. Run the file *etl.py* : in the Terminal write *python etl.py*
